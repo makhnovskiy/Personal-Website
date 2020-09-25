@@ -1,243 +1,281 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <meta name="author" content="Paul Makhnovskiy">
     <meta name="description" content="Web Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Paul Makhnovskiy - Portfolio</title>
     <style>
-      * {
-        -webkit-box-sizing: border-box;
-           -moz-box-sizing: border-box;
-                box-sizing: border-box;
-      }
-      html { font-size: 16px; }
-      @media (min-width: 30em) {
-        html { font-size: 18px; }
-      }
-      body {
-        margin: 0;
-        padding: 1.5rem;
-        font: 300 1rem/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-        color: #333;
-        color: #767676;
-        background-color: #fafafa;
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
 
-      }
-      @media (min-width: 500px) {
+        html {
+            font-size: 16px;
+        }
+
+        @media (min-width: 30em) {
+            html {
+                font-size: 18px;
+            }
+        }
+
         body {
-          padding: 3rem;
+            margin: 0;
+            padding: 1.5rem;
+            font: 300 1rem/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+            color: #333;
+            color: #767676;
+            background-color: #fafafa;
+
         }
-      }
-      a {
-        color: #0074d9;
-        text-decoration: none;
-        -webkit-transition: color .2s ease-in-out;
-           -moz-transition: color .2s ease-in-out;
-                transition: color .2s ease-in-out;
-      }
-      a:hover {
-        color: #005baa;
-      }
-      h1, h2, h3 {
-        margin-top: 0;
-        font-weight: 400;
-      }
-      h1 {
-        margin-bottom: .5rem;
-        font-size: 2.25rem;
-        line-height: 1;
-      }
-      h1 a {
-        color: #333;
-      }
-      h1 span {
-        display: inline-block;
-        font-weight: 300;
-      }
-      h2 {
-        margin-bottom: 1rem;
-        font-size: 1rem;
-        color: #767676;
-      }
-      h3 {
-        margin-bottom: 0;
-        font-size: 1.25rem;
-      }
-      p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        font-size:16px;
-      }
-      .lead {
-        font-size: 1.25rem;
-        line-height: 1.3;
-        color: #333;
-      }
-      hr {
-        width: 6rem;
-        height: 1px;
-        margin: 2.5rem 0;
-        background-color: #e5e5e5;
-        border: 0;
-      }
-      @media (min-width: 500px) {
-        .masthead {
-          max-width: 450px;
+
+        @media (min-width: 500px) {
+            body {
+                padding: 3rem;
+            }
         }
-      }
-      .links {
-        font-size: 1.5rem;
-      }
-      .links a {
-        color: #666;
-      }
-      .links a:hover {
-        color: #333;
-      }
+
+        a {
+            color: #0074d9;
+            text-decoration: none;
+            -webkit-transition: color .2s ease-in-out;
+            -moz-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+        }
+
+        a:hover {
+            color: #005baa;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        h1 {
+            margin-bottom: .5rem;
+            font-size: 2.25rem;
+            line-height: 1;
+        }
+
+        h1 a {
+            color: #333;
+        }
+
+        h1 span {
+            display: inline-block;
+            font-weight: 300;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: #767676;
+        }
+
+        h3 {
+            margin-bottom: 0;
+            font-size: 1.25rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 16px;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            line-height: 1.3;
+            color: #333;
+        }
+
+        hr {
+            width: 6rem;
+            height: 1px;
+            margin: 2.5rem 0;
+            background-color: #e5e5e5;
+            border: 0;
+        }
+
+        @media (min-width: 500px) {
+            .masthead {
+                max-width: 450px;
+            }
+        }
+
+        .links {
+            font-size: 1.5rem;
+        }
+
+        .links a {
+            color: #666;
+        }
+
+        .links a:hover {
+            color: #333;
+        }
 
     </style>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-	  ga('create', 'UA-88617724-1', 'auto');
-	  ga('send', 'pageview');
+        ga('create', 'UA-88617724-1', 'auto');
+        ga('send', 'pageview');
 
-	</script>
-  </head>
-  <body>
-    <div class="masthead">
-      <h1><a href="http://pmakhnovskiy.com/"><span></span>Paul Makhnovskiy</a></h1>
-      <p class="lead">
+    </script>
+</head>
+<body>
+<div class="masthead">
+    <h1><a href="http://pmakhnovskiy.com/"><span></span>Paul Makhnovskiy</a></h1>
+    <p class="lead">
         Web Developer at CalPERS.<br>
         PHP, Node, React, ServerLess<br>
         Agile development.<br>
-      </p>
-      <div class="links">
-
-
-                      <a href="https://github.com/makhnovskiy" target="_blank" title="Follow me on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/in/pmakhnovskiy" target="_blank"  title="Follow me on Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-              <!--<a href="https://twitter.com/dkrasniy" target="_blank"  title="Follow me on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
-</a>-->
-              <a href="mailto:paul@syberfx.com" target="_blank"  title="Contact Me"><i class="fa fa-envelope" aria-hidden="true"></i>
-</a>
-            </div>
-    </div>
-
-    <hr>
-    
-    <h2>Education</h2>
-    
-    <h3><a href="http://www.csus.edu/">University of California: Sacramento</a></h3>
-    <p>Learn all there is about computer science.</p>
-    
-    <h3><a href="http://www.losrios.edu/">Los Rios Community College District</a></h3>
-    <p>General Education/Lower division computer science</p>
-    
-    <hr>
-
-	 <h2>Personal Projects</h2>
-
-   <h3>Happiness Calculator</h3>
-   <p>Personal calculator that generates a happiness ratio and graphs results.</p>
-
-    <h3><a href="https://portal.oceanstack.co/"> Organizational Member Database System</a></h3>
-    <p>Modern yet sophisticated application that keeps an organizational member dataset up to date with an extremely easy UI. Custom dashboards allows administrators to analyze and act on measurable data.</p>
-
-    <h3><a href="http://www.coldairindustries.com">Cold Air Industries</a></h3>
-    <p>Sell HVAC appliance parts online with over 5,000 parts worldwide. Stores include Amazon and eBay.</p>
-
-    <h3><a href="http://www.syberparts.com">SyberParts</a></h3>
-    <p>Sell pizza oven parts online worldwide. Stores include Amazon and eBay.</p>
-
-    <h3>Pacific Electrical Resource</h3>
-    <p>Sell electrical equipment and parts worldwide. Stores include Amazon and eBay.</p>
-	  
-	<h3>Amazon Loader App</h3>
-    <p>Laravel PHP Framework using Amazon Marketplace Seller API (MWS) for automated Amazon price/quantity updates. Includes automated product posting and deletion.</p>
-
-       <hr>
-
-	 <h2>Non-profit</h2>
-
-    <h3><a href="http://slavictrinitychurch.org">Slavic Trinity Church</a></h3>
-    <p>
-      <ul>
-        <li>Public Website</li>
-        <li>Network/Server Administrator</li>
-        <li>Technology Advisor</li>
-      </ul>
-
     </p>
-
-	<h3><a href="https://github.com/makhnovskiy/YouTube-Import-Drupal-8">Drupal 8 YouTube Import Module</a></h3>
-
-
-    <hr>
-
-    <h2>Professional Projects/Contracts</h2>
-	
-    <h3><a href="https://www.calpers.ca.gov/">California Public Employees Retirement System (CalPERS)</a></h3>
-    <p>Technical lead web developer. MVC PHP, Javascript, JQuery. </p>
-    <ul>
-	    <li>My|CalPERS Open Enrollment Mobile App</li>
-    	<li>Public calpers.ca.gov website</li>
-      <li>Space Planning System</li>
-    	<li>Workforce Management System</li>
-    	<li>Travel Expense Claim System</li>
-    </ul>
+    <div class="links">
 
 
-    <h3><a href="https://www.pizzaguys.com/">Pizza Guys Franchises</a></h3>
-    <p>Technical consultant, website manager, data miner, innovation and process improvement. </p>
-    
-    <h3><a href="https://www.nemours.org/">Nemours Children's Health System</a></h3>
-    <p>Develop internal app to facilitate protocol datasheets to physicians.</p>
+        <a href="https://github.com/makhnovskiy" target="_blank" title="Follow me on GitHub"><i class="fa fa-github"
+                                                                                                aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/pmakhnovskiy" target="_blank" title="Follow me on Linkedin"><i
+                class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <!--<a href="https://twitter.com/dkrasniy" target="_blank"  title="Follow me on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+</a>-->
+        <a href="mailto:paul@syberfx.com" target="_blank" title="Contact Me"><i class="fa fa-envelope"
+                                                                                aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
 
-    <h3><a href="https://www.elso.org/">Extracorporeal Life Support Organization (ELSO)</a></h3>
-    <p>Website project manager.</p>
+<hr>
+
+<h2>Education</h2>
+
+<h3><a href="http://www.csus.edu/">University of California: Sacramento</a></h3>
+<p>Learn all there is about computer science.</p>
+
+<h3><a href="http://www.losrios.edu/">Los Rios Community College District</a></h3>
+<p>General Education/Lower division computer science</p>
+
+<hr>
+
+<h2>Personal Projects</h2>
+
+<h3>Happiness Calculator</h3>
+<p>Personal calculator that generates a happiness ratio and graphs results.</p>
+
+<h3>Organizational Member Database System</h3>
+<p>Modern yet sophisticated application that keeps an organizational member dataset up to date with an extremely easy
+    UI. Custom dashboards allows administrators to analyze and act on measurable data.</p>
+
+<h3><a href="http://www.coldairindustries.com">Cold Air Industries</a></h3>
+<p>Sell industrial parts online worldwide. Stores include Amazon and eBay.</p>
+
+<h3><a href="http://www.syberparts.com">SyberParts</a></h3>
+<p>Sell pizza oven parts online worldwide. Stores include Amazon and eBay.</p>
+
+<h3><a href="https://www.pacificelectricalresource.com/">Pacific Electrical Resource</a></h3>
+<p>Sell electrical equipment and parts worldwide. Stores include Amazon and eBay.</p>
+
+<h3><a href="https://www.coldaircentral.com/">Cold Air Central</a></h3>
+<p>Sell HVAC equipment and parts worldwide. Stores include Amazon, eBay and Walmart.</p>
+
+<h3>Amazon Loader App</h3>
+<p>Proprietary Framework using Amazon Marketplace Seller API (MWS) for automated Amazon price/quantity updates. Includes
+    automated product posting and deletion. Includes components for Shopify, eBay and WalMart API and feed
+    integrations.</p>
+
+<hr>
+
+<h2>Non-profit</h2>
+
+<h3><a href="http://slavictrinitychurch.org">Slavic Trinity Church</a></h3>
+<p>
+<ul>
+    <li>Public Website</li>
+    <li>Network/Server Administrator</li>
+    <li>Technology Advisor</li>
+</ul>
+
+</p>
+
+<h3><a href="https://github.com/makhnovskiy/YouTube-Import-Drupal-8">Drupal 8 YouTube Import Module</a></h3>
 
 
-    <hr>
+<hr>
 
-    <h2>Good Books</h2>
-  
-    <h3><a href="http://gettingthingsdone.com/">Getting Things Done</a></h3>
-    <p>David Allen</p>
-	
-    <h3><a href="https://www.harpercollins.com/9780062315007/the-alchemist/">The Alchemist</a></h3>
-    <p>Paulo Coelho</p>
-	
-	
-    <h3><a href="https://www.principles.com/">Principles: Life and Work</a></h3>
-    <p>Ray Dalio</p>
+<h2>Professional Projects/Contracts</h2>
 
-
+<h3><a href="https://www.calpers.ca.gov/">California Public Employees Retirement System (CalPERS)</a></h3>
+<p>Technical lead web developer. MVC PHP, Javascript, JQuery. </p>
+<ul>
+    <li>My|CalPERS Open Enrollment Mobile App</li>
+    <li>Public calpers.ca.gov website</li>
+    <li>Space Planning System</li>
+    <li>Workforce Management System</li>
+    <li>Travel Expense Claim System</li>
+</ul>
 
 
-    <hr>
-    
-    <!-- Good find for the ones looking... -->
-    <!--
-    <h2>Videos</h2>
+<h3><a href="https://www.pizzaguys.com/">Pizza Guys Franchises</a></h3>
+<p>Technical consultant, website manager, data miner, innovation and process improvement. </p>
 
-    <h3><a href="https://www.youtube.com/channel/UCjyB6bB4nTi84wsM3LBCSYg">My YouTube Channel</a></h3>
+<h3><a href="https://www.nemours.org/">Nemours Children's Health System</a></h3>
+<p>Develop internal app to facilitate protocol datasheets to physicians.</p>
 
-    <hr> 
-    -->
-
-    
+<h3><a href="https://www.elso.org/">Extracorporeal Life Support Organization (ELSO)</a></h3>
+<p>Website project manager & interactive learning module</p>
 
 
+<hr>
 
-    <p class="footer">&copy; 2018 - Paul Makhnovskiy</p>
+<h2>Good Books</h2>
 
-</body></html>
+<h3><a href="http://gettingthingsdone.com/">Getting Things Done</a></h3>
+<p>David Allen</p>
+
+<h3><a href="https://www.harpercollins.com/9780062315007/the-alchemist/">The Alchemist</a></h3>
+<p>Paulo Coelho</p>
+
+
+<h3><a href="https://www.principles.com/">Principles: Life and Work</a></h3>
+<p>Ray Dalio</p>
+
+
+<hr>
+
+<!-- Good find for the ones looking... -->
+<!--
+<h2>Videos</h2>
+
+<h3><a href="https://www.youtube.com/channel/UCjyB6bB4nTi84wsM3LBCSYg">My YouTube Channel</a></h3>
+
+<hr>
+-->
+
+
+<p class="footer">&copy; 2020 - Paul Makhnovskiy</p>
+
+</body>
+</html>
